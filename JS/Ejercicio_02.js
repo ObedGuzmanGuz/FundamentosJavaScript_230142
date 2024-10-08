@@ -11,7 +11,7 @@ console.log(`El tipo de dato de la variable cliente es: ${typeof (cliente)}`);
 cliente = "Michelle Sanchez"
 
 console.log(`El cliente es: ${cliente}`)
-console.log(`El tipo de dato de la variable cliente es: ${typeof (cliente)}`);
+console.log(`El tipo de dato dee la variable cliente es: ${typeof (cliente)}`);
 cliente = "2005";
 console.log(`El cliente es: ${cliente}`)
 console.log(`El tipo de dato de la variable cliente es: ${typeof (cliente)}`);
