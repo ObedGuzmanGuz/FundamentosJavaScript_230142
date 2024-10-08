@@ -140,3 +140,26 @@ console.log("La lista atual es  :")
 console.table(estudiantes)
 
 
+
+console.log("%c7.- Eliminar el elemento de un arreglo en la última posición (POP)",style_console)
+console.log("El arreglo tiene los siguientes elementos: ")
+console.table(estudiantes)
+console.log("Para este caso eliminaremos a Obed Guzmán, en la última posición. ")
+console.log("Después de eliminar el elemento el arreglo quedo de la siguiente manera:")
+arregloMixto.pop();
+//
+console.table(estudiantes)
+
+
+console.log("%c8.- Eliminar el elemento de un arreglo en la primera posición (SHIFT)",style_console)
+console.log("El arreglo tiene los siguientes elementos:")
+console.table(estudiantes)
+console.log("Para este caso eliminaremos a Raúl Pasos, en la primera posición.")
+estudiantes.shift();
+console.log("Después de eliminar el elemento del arreglo quedo de la siguiente manera: ")
+console.table(estudiantes);
+
+
+console.log("%c9.- Modificar un arreglo en un arreglo nuevo con posiciones definidas (SPLICE)", style_console)
+console.log("El arreglo original tiene los elementos:")
+console.table(estudiantes);
