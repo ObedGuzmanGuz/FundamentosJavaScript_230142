@@ -221,3 +221,23 @@ else if(clientesaldo<0)
 clientesaldo="En contra";
 else
 clientesaldo="Sin deuda";
+
+// Transformar valores cualitativos en cuantitativos
+let clienteNivel;
+
+if(clienteTipo=="Premium")
+    clienteNivel=1
+if(clienteTipo=="Freemium")
+    clienteNivel=2
+
+if(clienteTipo=="No identificado")
+    clienteNivel=3
+
+
+//Clasificamos al cliente por su País de origen
+
+if(clientePais=="Mexico")
+clientePais="Nacional"
+else
+clientePais="Extranjero"
+
