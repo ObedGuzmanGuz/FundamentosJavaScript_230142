@@ -16,7 +16,7 @@ cliente = "2005";
 console.log(`El cliente es: ${cliente}`)
 console.log(`El tipo de dato de la variable cliente es: ${typeof (cliente)}`);
 
-// Undefined es el tipo de dato que por defecto se asigna a variables no inicializadas o no declarados
+// Undefined es el tipo de dato que por defecto se asigna a variables no inicializadas o no declaradas
 
 
 // 2. BOOLEAN
@@ -250,7 +250,7 @@ if (numero1 === numero5) {
 
 console.log("Prueba de comparacion 7")
 
-// Prueba de comparacion 7: ¿es symbol(2)=symbol(""2")"?
+// Prueba de comparacion 7: ¿es symbol(2)=symbol("2")?
 
 if (numero5 === numero7) {
     console.log(`Se han comparado los valores de numero5 y numero7, confirmando que tiene el mismo valor.`)
